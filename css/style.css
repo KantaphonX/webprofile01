@@ -1,0 +1,81 @@
+ body {
+     font-family: "Monomaniac One", sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: black;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .title-1 {
+     color: white;
+     margin: 1px;
+ }
+
+ .title-2 {
+     color: #01D5A2;
+     margin: 1px;
+ }
+
+ .box-img {
+     margin-top: 50px;
+     border: 2px solid #01D5A2;
+     width: 280px;
+     height: 280px;
+     border-radius: 50%;
+     display: flex;
+     padding: 20px;
+
+ }
+
+ a {
+     color: #ffffff;
+     text-decoration: none;
+     margin: 0 10px;
+     font-size: 1.5rem;
+     /* 1 rem= 16px*/
+ }
+
+ i {
+     color: #ffffff;
+     margin: 0 10px;
+     font-size: 1.5rem;
+     /* 1 rem= 16px*/
+
+ }
+
+ .nav-bar {
+     width: 100%;
+     display: flex;
+     /* justify-content: space-around; */
+     align-items: center;
+     margin-top;
+     : 30px;
+     margin-bottom: 60px;
+ }
+
+ .nav-subbox {
+     width: 33.33%;
+
+ }
+
+ .nav-subbox img {
+     display: block;
+     margin: auto;
+ }
+
+ .nav-subbox-i {
+     /* text-align: right; */
+     display: flex;
+     justify-content: end;
+     margin-right: 50px;
+ }
+
+ .nav-subbox-a {
+     margin-left: 50px;
+ }
